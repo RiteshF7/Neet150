@@ -1,4 +1,5 @@
-package org.trex.kotlin
+package org.trex.kotlin.arrayAndHashmap
+
 
 fun main() {
     val result = KFreqElement.findKFreqElement(

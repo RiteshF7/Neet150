@@ -1,6 +1,6 @@
-package org.trex.kotlin
+package org.trex.kotlin.arrayAndHashmap
 
-import org.trex.kotlin.DuplicateFinder.findDuplicate
+import org.trex.kotlin.arrayAndHashmap.DuplicateFinder.findDuplicate
 
 /*
 * Given an integer array nums, return true if any value appears more than once in the array, otherwise return false.

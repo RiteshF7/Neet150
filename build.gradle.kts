@@ -12,6 +12,7 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
+    testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
 tasks.test {

@@ -1,4 +1,4 @@
-package org.trex.kotlin
+package org.trex.kotlin.arrayAndHashmap
 
 /*
 Group Anagrams

@@ -1,4 +1,4 @@
-package org.trex.kotlin
+package org.trex.kotlin.arrayAndHashmap
 /*Two Sum
 Given an array of integers nums and an integer target, return the indices i and j such that nums[i] + nums[j] == target and i != j.
 
