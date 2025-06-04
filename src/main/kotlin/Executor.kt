@@ -2,26 +2,26 @@ package org.trex.kotlin
 
 
 abstract class BaseExecutor<I, O>() {
-    abstract val input: I
+    protected abstract val input: I
     protected abstract fun execute(): O
 
 
-     fun printOutput(value: O = execute()): O {
-        when (value) {
+    fun printOutput(output: O = execute()): O {
+        when (output) {
             null -> println("null")
-            is Int, is Double, is Float, is Boolean, is Char, is String -> println(value)
-            is Array<*> -> println(value.joinToString(", "))
-            is IntArray -> println(value.joinToString(", "))
-            is DoubleArray -> println(value.joinToString(", "))
-            is FloatArray -> println(value.joinToString(", "))
-            is BooleanArray -> println(value.joinToString(", "))
-            is CharArray -> println(value.joinToString(", "))
-            is List<*> -> println(value.joinToString(", "))
-            is Set<*> -> println(value.joinToString(", "))
-            is Map<*, *> -> println(value.entries.joinToString(", ") { "${it.key} -> ${it.value}" })
+            is Int, is Double, is Float, is Boolean, is Char, is String -> println(output)
+            is Array<*> -> println(output.joinToString(", "))
+            is IntArray -> println(output.joinToString(", "))
+            is DoubleArray -> println(output.joinToString(", "))
+            is FloatArray -> println(output.joinToString(", "))
+            is BooleanArray -> println(output.joinToString(", "))
+            is CharArray -> println(output.joinToString(", "))
+            is List<*> -> println(output.joinToString(", "))
+            is Set<*> -> println(output.joinToString(", "))
+            is Map<*, *> -> println(output.entries.joinToString(", ") { "${it.key} -> ${it.value}" })
             else -> println("Unsupported type: Add type in print Output function!")
         }
-        return value
+        return output
     }
 
 
