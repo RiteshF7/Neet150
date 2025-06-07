@@ -36,10 +36,6 @@ class ThreeSum : BaseExecutor<IntArray, MutableList<IntArray>>() {
             }
         }
 
-        result.forEach { res ->
-            res.forEach { print("$it,") }
-            println()
-        }
         return result
     }
 
