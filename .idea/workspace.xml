@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce313cea-582b-4f95-9cb0-e74ee23bad8e" name="Changes" comment="added KFreqElement &#10;count = 5">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayAndHashmap/RotateArrayByKElement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayAndHashmap/ReverseArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/FindMinInRotatedArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/IterativeBinarySearch.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +70,7 @@
     "Kotlin.FindDuplicateKt.executor": "Run",
     "Kotlin.GroupAnagramKt.executor": "Run",
     "Kotlin.IsAnagramKt.executor": "Run",
+    "Kotlin.IterativeBinarySearchKt.executor": "Run",
     "Kotlin.KFreqElementKt.executor": "Run",
     "Kotlin.LongSubStringWithoutRepeatKt.executor": "Run",
     "Kotlin.LongestConsectiveIntegerKt.executor": "Run",
@@ -75,6 +78,7 @@
     "Kotlin.MinWindowSubStringKt.executor": "Run",
     "Kotlin.MinimimWIndowSubStringKt.executor": "Run",
     "Kotlin.ProductExceptSelfKt.executor": "Run",
+    "Kotlin.ReverseArrayKt.executor": "Run",
     "Kotlin.RotateArrayByKElementKt.executor": "Run",
     "Kotlin.ThreeSumKt.executor": "Run",
     "Kotlin.TwoSumKt.executor": "Run",
@@ -102,24 +106,23 @@
       <recent name="C:\Users\rites\IdeaProjects\Neet150\src\main\kotlin\arrayAndHashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.RotateArrayByKElementKt">
-    <configuration name="BestTimeToBuyStockKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.slidingWindow.BestTimeToBuyStockKt" />
+  <component name="RunManager" selected="Kotlin.IterativeBinarySearchKt">
+    <configuration name="IterativeBinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.binarySearch.IterativeBinarySearchKt" />
       <module name="Neet150.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindAnagramKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.arrayAndHashmap.FindAnagramKt" />
-      <module name="Neet150.main" />
-      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MinimimWIndowSubStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.slidingWindow.MinimimWIndowSubStringKt" />
+      <module name="Neet150.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.arrayAndHashmap.ReverseArrayKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,19 +148,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Kotlin.IterativeBinarySearchKt" />
       <item itemvalue="Kotlin.MinimimWIndowSubStringKt" />
+      <item itemvalue="Kotlin.ReverseArrayKt" />
       <item itemvalue="Kotlin.RotateArrayByKElementKt" />
       <item itemvalue="Kotlin.ValidParenthesisKt" />
-      <item itemvalue="Kotlin.BestTimeToBuyStockKt" />
-      <item itemvalue="Kotlin.FindAnagramKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.IterativeBinarySearchKt" />
+        <item itemvalue="Kotlin.ReverseArrayKt" />
         <item itemvalue="Kotlin.RotateArrayByKElementKt" />
         <item itemvalue="Kotlin.MinimimWIndowSubStringKt" />
         <item itemvalue="Kotlin.ValidParenthesisKt" />
-        <item itemvalue="Kotlin.BestTimeToBuyStockKt" />
-        <item itemvalue="Kotlin.FindAnagramKt" />
       </list>
     </recent_temporary>
   </component>
