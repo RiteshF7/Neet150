@@ -1,6 +1,7 @@
 package org.trex.kotlin.slidingWindow
 
 import org.trex.kotlin.BaseExecutor
+import kotlin.math.max
 
 
 fun main() {
@@ -14,13 +15,17 @@ class BestTimeToBuyStock : BaseExecutor<IntArray, Int>() {
     override fun execute(): Int {
         var l = 0
         var r = 1
-//        while (l < input.size && r < input.size) {
-//            print("$l,")
-//            println()
-//            println("$r")
-//            l++
-//            r++
-//        }
-        return -1
+        var max = 0
+        while (r < input.size) {
+            if (input[r] < input[l]) {
+                l=r
+            } else {
+                val profit = input[r] - input[l]
+                max = max(max, profit)
+            }
+            r++
+        }
+
+        return max
     }
 }

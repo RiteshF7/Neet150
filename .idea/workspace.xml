@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce313cea-582b-4f95-9cb0-e74ee23bad8e" name="Changes" comment="added KFreqElement &#10;count = 5">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/slidingWindow/MinimimWIndowSubString.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/stack/ValidParenthesis.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/slidingWindow/BestTimeToBuyStock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/slidingWindow/BestTimeToBuyStock.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2xln7K4ut5vWkMhsMc9DztKtQNn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build Neet150.executor": "Run",
+    "Gradle.Neet150 [build].executor": "Run",
+    "Gradle.Neet150 [clean].executor": "Run",
+    "Kotlin.BestTimeToBuyStockKt.executor": "Run",
+    "Kotlin.ContainerWithMostWaterKt.executor": "Run",
+    "Kotlin.EncodeDecodeStringKt.executor": "Run",
+    "Kotlin.FindAnagramKt.executor": "Run",
+    "Kotlin.FindDuplicateKt.executor": "Run",
+    "Kotlin.GroupAnagramKt.executor": "Run",
+    "Kotlin.IsAnagramKt.executor": "Run",
+    "Kotlin.KFreqElementKt.executor": "Run",
+    "Kotlin.LongSubStringWithoutRepeatKt.executor": "Run",
+    "Kotlin.LongestConsectiveIntegerKt.executor": "Run",
+    "Kotlin.LongestRepeatingCharaterReplacementKt.executor": "Run",
+    "Kotlin.MinWindowSubStringKt.executor": "Run",
+    "Kotlin.MinimimWIndowSubStringKt.executor": "Debug",
+    "Kotlin.ProductExceptSelfKt.executor": "Run",
+    "Kotlin.ThreeSumKt.executor": "Run",
+    "Kotlin.TwoSumKt.executor": "Run",
+    "Kotlin.ValidPalindromeKt.executor": "Debug",
+    "Kotlin.ValidParenthesisKt.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rites/IdeaProjects/Neet150",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rites\IdeaProjects\Neet150\src\main\kotlin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rites\IdeaProjects\Neet150\src\main\kotlin\arrayAndHashmap" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.MinimimWIndowSubStringKt">
+    <configuration name="BestTimeToBuyStockKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.slidingWindow.BestTimeToBuyStockKt" />
+      <module name="Neet150.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindAnagramKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.arrayAndHashmap.FindAnagramKt" />
+      <module name="Neet150.main" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinWindowSubStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.slidingWindow.MinWindowSubStringKt" />
+      <module name="Neet150.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimimWIndowSubStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.slidingWindow.MinimimWIndowSubStringKt" />
+      <module name="Neet150.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidParenthesisKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.stack.ValidParenthesisKt" />
+      <module name="Neet150.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Neet150" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.MinimimWIndowSubStringKt" />
+      <item itemvalue="Kotlin.ValidParenthesisKt" />
+      <item itemvalue="Kotlin.BestTimeToBuyStockKt" />
+      <item itemvalue="Kotlin.FindAnagramKt" />
+      <item itemvalue="Kotlin.MinWindowSubStringKt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MinimimWIndowSubStringKt" />
+        <item itemvalue="Kotlin.ValidParenthesisKt" />
+        <item itemvalue="Kotlin.BestTimeToBuyStockKt" />
+        <item itemvalue="Kotlin.FindAnagramKt" />
+        <item itemvalue="Kotlin.MinWindowSubStringKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce313cea-582b-4f95-9cb0-e74ee23bad8e" name="Changes" comment="" />
+      <created>1748521384945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748521384945</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First 2">
+      <option name="closed" value="true" />
+      <created>1748525333421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748525333421</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added two sum count = 3">
+      <option name="closed" value="true" />
+      <created>1748530487529</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748530487529</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added froup anagram&#10;count = 4">
+      <option name="closed" value="true" />
+      <created>1748545569391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748545569391</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added KFreqElement anagram&#10;count = 5">
+      <option name="closed" value="true" />
+      <created>1748548189274</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748548189274</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First 2" />
+    <MESSAGE value="added two sum count = 3" />
+    <MESSAGE value="added froup anagram&#10;count = 4" />
+    <MESSAGE value="added KFreqElement anagram&#10;count = 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="added KFreqElement anagram&#10;count = 5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/slidingWindow/MinimimWIndowSubString.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
