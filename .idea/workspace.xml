@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce313cea-582b-4f95-9cb0-e74ee23bad8e" name="Changes" comment="added KFreqElement &#10;count = 5">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayAndHashmap/RotateArrayByKElement.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/slidingWindow/MinimimWIndowSubString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/slidingWindow/MinimimWIndowSubString.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,7 @@
     "Kotlin.MinWindowSubStringKt.executor": "Run",
     "Kotlin.MinimimWIndowSubStringKt.executor": "Run",
     "Kotlin.ProductExceptSelfKt.executor": "Run",
+    "Kotlin.RotateArrayByKElementKt.executor": "Run",
     "Kotlin.ThreeSumKt.executor": "Run",
     "Kotlin.TwoSumKt.executor": "Run",
     "Kotlin.ValidPalindromeKt.executor": "Debug",
@@ -101,7 +102,7 @@
       <recent name="C:\Users\rites\IdeaProjects\Neet150\src\main\kotlin\arrayAndHashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MinimimWIndowSubStringKt">
+  <component name="RunManager" selected="Kotlin.RotateArrayByKElementKt">
     <configuration name="BestTimeToBuyStockKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.slidingWindow.BestTimeToBuyStockKt" />
       <module name="Neet150.main" />
@@ -117,15 +118,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinWindowSubStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.slidingWindow.MinWindowSubStringKt" />
+    <configuration name="MinimimWIndowSubStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.slidingWindow.MinimimWIndowSubStringKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimimWIndowSubStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.slidingWindow.MinimimWIndowSubStringKt" />
+    <configuration name="RotateArrayByKElementKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.arrayAndHashmap.RotateArrayByKElementKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,18 +146,18 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.MinimimWIndowSubStringKt" />
+      <item itemvalue="Kotlin.RotateArrayByKElementKt" />
       <item itemvalue="Kotlin.ValidParenthesisKt" />
       <item itemvalue="Kotlin.BestTimeToBuyStockKt" />
       <item itemvalue="Kotlin.FindAnagramKt" />
-      <item itemvalue="Kotlin.MinWindowSubStringKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.RotateArrayByKElementKt" />
         <item itemvalue="Kotlin.MinimimWIndowSubStringKt" />
         <item itemvalue="Kotlin.ValidParenthesisKt" />
         <item itemvalue="Kotlin.BestTimeToBuyStockKt" />
         <item itemvalue="Kotlin.FindAnagramKt" />
-        <item itemvalue="Kotlin.MinWindowSubStringKt" />
       </list>
     </recent_temporary>
   </component>
