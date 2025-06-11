@@ -1,7 +1,6 @@
 package org.trex.kotlin.slidingWindow
 
 import org.trex.kotlin.BaseExecutor
-import kotlin.math.min
 
 fun main() {
     MinimumWindowSubString().printOutput()
@@ -11,7 +10,7 @@ data class MinimimWindowSubStringInput(val s1: String, val s2: String)
 
 class MinimumWindowSubString : BaseExecutor<MinimimWindowSubStringInput, String>() {
     override val input: MinimimWindowSubStringInput
-        get() = MinimimWindowSubStringInput("OUZODYXAZV", "XYZ")
+        get() = MinimimWindowSubStringInput("ADOBECODEBANC", "ABC")
 
     private val s = input.s1
     private val t = input.s2
@@ -19,6 +18,7 @@ class MinimumWindowSubString : BaseExecutor<MinimimWindowSubStringInput, String>
 
     override fun execute(): String {
 
+        if (s.isEmpty() || t.isEmpty()) return ""
         val needMap = HashMap<Char, Int>()
         val haveMap = HashMap<Char, Int>()
         var minLen = Int.MAX_VALUE
@@ -31,39 +31,40 @@ class MinimumWindowSubString : BaseExecutor<MinimimWindowSubStringInput, String>
         val res = Array(size = 2) { -1 }
         var l = 0
         for (r in s.indices) {
+
+            //updating have char
             val char = s[r]
-            if (needMap.contains(char)) {
+            if (char in needMap) {
                 haveMap[char] = haveMap.getOrDefault(char, 0) + 1
                 if (haveMap[char]!! == needMap[char]!!) {
                     have++
                 }
-                if (need == have) {
-                    val len = (r - l) + 1
-                    minLen = min(minLen, len)
-                    if (minLen == len) {
-                        res[0] = l
-                        res[1] = r
-                    }
+            }
 
-                    while (need == have) {
-                        l++
-                        if (needMap.contains(s[l])) {
-                            haveMap[s[l]] = haveMap[s[l]]!! - 1
-                            have--
-                        }
-
-                    }
-
+            //poping until have !=need
+            while (have == need) {
+                val len = (r - l) + 1
+                if (len < minLen) {
+                    minLen = len
+                    res[0] = l
+                    res[1] = r
                 }
+
+                val lChar = s[l]
+                if (lChar in needMap) {
+                    haveMap[lChar] = haveMap[lChar]!! - 1
+                    if (haveMap[lChar]!! < needMap[lChar]!!) {
+                        have--
+                    }
+                }
+                l++
+
             }
 
 
         }
 
-
-
-
-        return s.substring(l, res[1] + 1)
+        return if (res[0] == -1) "" else s.substring(res[0]..res[1])
     }
 
 

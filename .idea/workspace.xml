@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce313cea-582b-4f95-9cb0-e74ee23bad8e" name="Changes" comment="added KFreqElement &#10;count = 5">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/slidingWindow/MinimimWIndowSubString.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/stack/ValidParenthesis.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/slidingWindow/BestTimeToBuyStock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/slidingWindow/BestTimeToBuyStock.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/slidingWindow/MinimimWIndowSubString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/slidingWindow/MinimimWIndowSubString.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +73,7 @@
     "Kotlin.LongestConsectiveIntegerKt.executor": "Run",
     "Kotlin.LongestRepeatingCharaterReplacementKt.executor": "Run",
     "Kotlin.MinWindowSubStringKt.executor": "Run",
-    "Kotlin.MinimimWIndowSubStringKt.executor": "Debug",
+    "Kotlin.MinimimWIndowSubStringKt.executor": "Run",
     "Kotlin.ProductExceptSelfKt.executor": "Run",
     "Kotlin.ThreeSumKt.executor": "Run",
     "Kotlin.TwoSumKt.executor": "Run",
@@ -229,16 +221,5 @@
     <MESSAGE value="added froup anagram&#10;count = 4" />
     <MESSAGE value="added KFreqElement anagram&#10;count = 5" />
     <option name="LAST_COMMIT_MESSAGE" value="added KFreqElement anagram&#10;count = 5" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/slidingWindow/MinimimWIndowSubString.kt</url>
-          <line>33</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
