@@ -24,6 +24,10 @@ class RexLinkedList<T>() {
         }
     }
 
+    fun firstNode():Node<T>?{
+        return head
+    }
+
     fun push(value: T): RexLinkedList<T> = apply {
         head = Node(value, head)
         if (tail == null) tail = head

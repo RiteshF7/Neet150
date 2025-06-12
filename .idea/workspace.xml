@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce313cea-582b-4f95-9cb0-e74ee23bad8e" name="Changes" comment="added KFreqElement &#10;count = 5">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/LinkedListExecutor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/implementation/RexLinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/ReverseLinkedList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/implementation/RexLinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/implementation/RexLinkedList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
     "Kotlin.IsAnagramKt.executor": "Run",
     "Kotlin.IterativeBinarySearchKt.executor": "Run",
     "Kotlin.KFreqElementKt.executor": "Run",
-    "Kotlin.LinkedListExecutorKt.executor": "Debug",
+    "Kotlin.LinkedListExecutorKt.executor": "Run",
     "Kotlin.LongSubStringWithoutRepeatKt.executor": "Run",
     "Kotlin.LongestConsectiveIntegerKt.executor": "Run",
     "Kotlin.LongestRepeatingCharaterReplacementKt.executor": "Run",
@@ -233,21 +233,5 @@
     <MESSAGE value="added froup anagram&#10;count = 4" />
     <MESSAGE value="added KFreqElement anagram&#10;count = 5" />
     <option name="LAST_COMMIT_MESSAGE" value="added KFreqElement anagram&#10;count = 5" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/implementation/RexLinkedList.kt</url>
-          <line>52</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/implementation/RexLinkedList.kt</url>
-          <line>57</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
