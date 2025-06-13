@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce313cea-582b-4f95-9cb0-e74ee23bad8e" name="Changes" comment="added KFreqElement &#10;count = 5">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/MergeTwoSortedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/FindingCycle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/ReorderLinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/implementation/ListNode.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/LinkedListExecutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/LinkedListExecutor.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +80,7 @@
     "Kotlin.EncodeDecodeStringKt.executor": "Run",
     "Kotlin.FindAnagramKt.executor": "Run",
     "Kotlin.FindDuplicateKt.executor": "Run",
+    "Kotlin.FindingCycleKt.executor": "Run",
     "Kotlin.GroupAnagramKt.executor": "Run",
     "Kotlin.IsAnagramKt.executor": "Run",
     "Kotlin.IterativeBinarySearchKt.executor": "Run",
@@ -92,6 +94,7 @@
     "Kotlin.MinimimWIndowSubStringKt.executor": "Run",
     "Kotlin.ProductExceptSelfKt.executor": "Run",
     "Kotlin.RecursiveBinarySearchKt.executor": "Run",
+    "Kotlin.ReorderLinkedListKt.executor": "Run",
     "Kotlin.ReverseArrayKt.executor": "Run",
     "Kotlin.ReverseLinkedListKt.executor": "Run",
     "Kotlin.RotateArrayByKElementKt.executor": "Run",
@@ -121,9 +124,9 @@
       <recent name="C:\Users\rites\IdeaProjects\Neet150\src\main\kotlin\arrayAndHashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MergeTwoSortedListKt">
-    <configuration name="IterativeBinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.binarySearch.IterativeBinarySearchKt" />
+  <component name="RunManager" selected="Kotlin.ReorderLinkedListKt">
+    <configuration name="FindingCycleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.linkedlist.FindingCycleKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,8 +146,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveBinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.binarySearch.RecursiveBinarySearchKt" />
+    <configuration name="ReorderLinkedListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.linkedlist.ReorderLinkedListKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,19 +161,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Kotlin.FindingCycleKt" />
       <item itemvalue="Kotlin.LinkedListExecutorKt" />
       <item itemvalue="Kotlin.MergeTwoSortedListKt" />
+      <item itemvalue="Kotlin.ReorderLinkedListKt" />
       <item itemvalue="Kotlin.ReverseLinkedListKt" />
-      <item itemvalue="Kotlin.IterativeBinarySearchKt" />
-      <item itemvalue="Kotlin.RecursiveBinarySearchKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ReorderLinkedListKt" />
+        <item itemvalue="Kotlin.FindingCycleKt" />
         <item itemvalue="Kotlin.MergeTwoSortedListKt" />
         <item itemvalue="Kotlin.LinkedListExecutorKt" />
         <item itemvalue="Kotlin.ReverseLinkedListKt" />
-        <item itemvalue="Kotlin.RecursiveBinarySearchKt" />
-        <item itemvalue="Kotlin.IterativeBinarySearchKt" />
       </list>
     </recent_temporary>
   </component>
