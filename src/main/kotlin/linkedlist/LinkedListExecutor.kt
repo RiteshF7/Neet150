@@ -7,6 +7,6 @@ fun main(){
     myLinkedList.push(1)
     myLinkedList.push(2)
     myLinkedList.push(5)
-    myLinkedList.removeLast()
+    println(myLinkedList.firstNode())
     myLinkedList.printElements()
 }
