@@ -23,7 +23,7 @@ class MergeTwoSortedList : BaseExecutor<Node<Int>?, Node<Int>?>() {
         return null
     }
 
-    private fun merger(n1: Node<Int>?, n2: Node<Int>?) {
+    fun merger(n1: Node<Int>?, n2: Node<Int>?): Node<Int>? {
 
         val dummyNode: Node<Int>? = Node(0, null)
         var currentNode = dummyNode
@@ -41,12 +41,7 @@ class MergeTwoSortedList : BaseExecutor<Node<Int>?, Node<Int>?>() {
         }
 
         currentNode?.nextNode = firstNode ?: secondNode
-
-        var n = dummyNode
-        while (n != null) {
-            print("${n.value},")
-            n = n.nextNode
-        }
+        return dummyNode?.nextNode
 
     }
 

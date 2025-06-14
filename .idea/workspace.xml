@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce313cea-582b-4f95-9cb0-e74ee23bad8e" name="Changes" comment="added KFreqElement &#10;count = 5">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/FindingCycle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/ReorderLinkedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/implementation/ListNode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/MergeKSortedLists.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/RemoveNthElementFromEnd.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearch/FindMinInRotatedArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/FindMinInRotatedArray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/MergeTwoSortedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/MergeTwoSortedList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/ReorderLinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/ReorderLinkedList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +82,7 @@
     "Kotlin.EncodeDecodeStringKt.executor": "Run",
     "Kotlin.FindAnagramKt.executor": "Run",
     "Kotlin.FindDuplicateKt.executor": "Run",
+    "Kotlin.FindMinInRotatedArrayKt.executor": "Run",
     "Kotlin.FindingCycleKt.executor": "Run",
     "Kotlin.GroupAnagramKt.executor": "Run",
     "Kotlin.IsAnagramKt.executor": "Run",
@@ -89,15 +92,18 @@
     "Kotlin.LongSubStringWithoutRepeatKt.executor": "Run",
     "Kotlin.LongestConsectiveIntegerKt.executor": "Run",
     "Kotlin.LongestRepeatingCharaterReplacementKt.executor": "Run",
+    "Kotlin.MergeKSortedListsKt.executor": "Run",
     "Kotlin.MergeTwoSortedListKt.executor": "Run",
     "Kotlin.MinWindowSubStringKt.executor": "Run",
     "Kotlin.MinimimWIndowSubStringKt.executor": "Run",
     "Kotlin.ProductExceptSelfKt.executor": "Run",
     "Kotlin.RecursiveBinarySearchKt.executor": "Run",
+    "Kotlin.RemoveNthElementFromEndKt.executor": "Run",
     "Kotlin.ReorderLinkedListKt.executor": "Run",
     "Kotlin.ReverseArrayKt.executor": "Run",
     "Kotlin.ReverseLinkedListKt.executor": "Run",
     "Kotlin.RotateArrayByKElementKt.executor": "Run",
+    "Kotlin.TestKt.executor": "Run",
     "Kotlin.ThreeSumKt.executor": "Run",
     "Kotlin.TwoSumKt.executor": "Run",
     "Kotlin.ValidPalindromeKt.executor": "Debug",
@@ -124,16 +130,16 @@
       <recent name="C:\Users\rites\IdeaProjects\Neet150\src\main\kotlin\arrayAndHashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ReorderLinkedListKt">
-    <configuration name="FindingCycleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.linkedlist.FindingCycleKt" />
+  <component name="RunManager" selected="Kotlin.FindMinInRotatedArrayKt">
+    <configuration name="FindMinInRotatedArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.binarySearchTree.FindMinInRotatedArrayKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListExecutorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.linkedlist.LinkedListExecutorKt" />
+    <configuration name="MergeKSortedListsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.linkedlist.MergeKSortedListsKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,34 +152,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReorderLinkedListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.linkedlist.ReorderLinkedListKt" />
+    <configuration name="RemoveNthElementFromEndKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.linkedlist.RemoveNthElementFromEndKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.linkedlist.ReverseLinkedListKt" />
+    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.linkedlist.TestKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.FindingCycleKt" />
-      <item itemvalue="Kotlin.LinkedListExecutorKt" />
+      <item itemvalue="Kotlin.FindMinInRotatedArrayKt" />
+      <item itemvalue="Kotlin.MergeKSortedListsKt" />
       <item itemvalue="Kotlin.MergeTwoSortedListKt" />
-      <item itemvalue="Kotlin.ReorderLinkedListKt" />
-      <item itemvalue="Kotlin.ReverseLinkedListKt" />
+      <item itemvalue="Kotlin.RemoveNthElementFromEndKt" />
+      <item itemvalue="Kotlin.TestKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ReorderLinkedListKt" />
-        <item itemvalue="Kotlin.FindingCycleKt" />
+        <item itemvalue="Kotlin.FindMinInRotatedArrayKt" />
+        <item itemvalue="Kotlin.MergeKSortedListsKt" />
         <item itemvalue="Kotlin.MergeTwoSortedListKt" />
-        <item itemvalue="Kotlin.LinkedListExecutorKt" />
-        <item itemvalue="Kotlin.ReverseLinkedListKt" />
+        <item itemvalue="Kotlin.TestKt" />
+        <item itemvalue="Kotlin.RemoveNthElementFromEndKt" />
       </list>
     </recent_temporary>
   </component>
