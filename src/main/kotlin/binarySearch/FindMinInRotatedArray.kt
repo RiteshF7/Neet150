@@ -11,7 +11,7 @@ fun main() {
 
 class FindMinInRotatedArray : BaseExecutor<IntArray, Int>() {
     override val input: IntArray
-        get() = intArrayOf(3,4,5,6,7,8)
+        get() = intArrayOf(3,4,5,6,1,2)
 
     override fun execute(): Int {
         val nums = input
@@ -20,7 +20,7 @@ class FindMinInRotatedArray : BaseExecutor<IntArray, Int>() {
         if (nums[low]<nums[high]) return nums[low]
         while (low < high) {
             val mid = low + (high - low) / 2
-            if (nums[mid] >= nums[low]) {
+            if (nums[mid] > nums[high]) {
                 low = mid + 1
             } else {
                 high = mid
