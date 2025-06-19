@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce313cea-582b-4f95-9cb0-e74ee23bad8e" name="Changes" comment="added KFreqElement &#10;count = 5">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/SearchInRotatedSortedArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayAndHashmap/SubSequenceOfArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/BinaryTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/BinaryTreeImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/BuildTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/InvertBinaryTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/IsSameTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/IsSubTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/KthSmallestElement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/LevelOrderTreeTraversal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/LowestCommonAncestor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/MaxDepthOfBinaryTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/RecursionExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/TreeNode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/TreeUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/ValidBST.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearch/FindMinInRotatedArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/FindMinInRotatedArray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Executor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Executor.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +90,8 @@
     "Gradle.Neet150 [build].executor": "Run",
     "Gradle.Neet150 [clean].executor": "Run",
     "Kotlin.BestTimeToBuyStockKt.executor": "Run",
+    "Kotlin.BinaryTreeImplKt.executor": "Run",
+    "Kotlin.BuildTreeKt.executor": "Run",
     "Kotlin.ContainerWithMostWaterKt.executor": "Run",
     "Kotlin.EncodeDecodeStringKt.executor": "Run",
     "Kotlin.FindAnagramKt.executor": "Run",
@@ -82,18 +99,25 @@
     "Kotlin.FindMinInRotatedArrayKt.executor": "Run",
     "Kotlin.FindingCycleKt.executor": "Run",
     "Kotlin.GroupAnagramKt.executor": "Run",
+    "Kotlin.InvertBinaryTreeKt.executor": "Debug",
     "Kotlin.IsAnagramKt.executor": "Run",
+    "Kotlin.IsSameTreeKt.executor": "Run",
     "Kotlin.IterativeBinarySearchKt.executor": "Run",
     "Kotlin.KFreqElementKt.executor": "Run",
+    "Kotlin.KthSmallestElementKt.executor": "Run",
+    "Kotlin.LevelOrderTreeTraversalKt.executor": "Run",
     "Kotlin.LinkedListExecutorKt.executor": "Run",
     "Kotlin.LongSubStringWithoutRepeatKt.executor": "Run",
     "Kotlin.LongestConsectiveIntegerKt.executor": "Run",
     "Kotlin.LongestRepeatingCharaterReplacementKt.executor": "Run",
+    "Kotlin.LowestCommonAncestorKt.executor": "Run",
+    "Kotlin.MaxDepthOfBinaryTreeKt.executor": "Debug",
     "Kotlin.MergeKSortedListsKt.executor": "Run",
     "Kotlin.MergeTwoSortedListKt.executor": "Run",
     "Kotlin.MinWindowSubStringKt.executor": "Run",
     "Kotlin.MinimimWIndowSubStringKt.executor": "Run",
     "Kotlin.ProductExceptSelfKt.executor": "Run",
+    "Kotlin.RecursionExampleKt.executor": "Run",
     "Kotlin.RecursiveBinarySearchKt.executor": "Run",
     "Kotlin.RemoveNthElementFromEndKt.executor": "Run",
     "Kotlin.ReorderLinkedListKt.executor": "Run",
@@ -101,9 +125,11 @@
     "Kotlin.ReverseLinkedListKt.executor": "Run",
     "Kotlin.RotateArrayByKElementKt.executor": "Run",
     "Kotlin.SearchInRotatedSortedArrayKt.executor": "Run",
+    "Kotlin.SubSequenceOfArrayKt.executor": "Run",
     "Kotlin.TestKt.executor": "Run",
     "Kotlin.ThreeSumKt.executor": "Run",
     "Kotlin.TwoSumKt.executor": "Run",
+    "Kotlin.ValidBSTKt.executor": "Run",
     "Kotlin.ValidPalindromeKt.executor": "Debug",
     "Kotlin.ValidParenthesisKt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -128,56 +154,56 @@
       <recent name="C:\Users\rites\IdeaProjects\Neet150\src\main\kotlin\arrayAndHashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SearchInRotatedSortedArrayKt">
-    <configuration name="FindMinInRotatedArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.binarySearchTree.FindMinInRotatedArrayKt" />
+  <component name="RunManager" selected="Kotlin.BuildTreeKt">
+    <configuration name="BuildTreeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.BuildTreeKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKSortedListsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.linkedlist.MergeKSortedListsKt" />
+    <configuration name="KthSmallestElementKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.KthSmallestElementKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.linkedlist.MergeTwoSortedListKt" />
-      <module name="Neet150.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchInRotatedSortedArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.binarySearch.SearchInRotatedSortedArrayKt" />
+    <configuration name="LevelOrderTreeTraversalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.LevelOrderTreeTraversalKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.linkedlist.TestKt" />
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.TestKt" />
+      <module name="Neet150.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidBSTKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.ValidBSTKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.FindMinInRotatedArrayKt" />
-      <item itemvalue="Kotlin.MergeKSortedListsKt" />
-      <item itemvalue="Kotlin.MergeTwoSortedListKt" />
-      <item itemvalue="Kotlin.SearchInRotatedSortedArrayKt" />
+      <item itemvalue="Kotlin.BuildTreeKt" />
+      <item itemvalue="Kotlin.KthSmallestElementKt" />
+      <item itemvalue="Kotlin.LevelOrderTreeTraversalKt" />
       <item itemvalue="Kotlin.TestKt" />
+      <item itemvalue="Kotlin.ValidBSTKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.SearchInRotatedSortedArrayKt" />
-        <item itemvalue="Kotlin.FindMinInRotatedArrayKt" />
-        <item itemvalue="Kotlin.MergeKSortedListsKt" />
-        <item itemvalue="Kotlin.MergeTwoSortedListKt" />
+        <item itemvalue="Kotlin.BuildTreeKt" />
+        <item itemvalue="Kotlin.KthSmallestElementKt" />
+        <item itemvalue="Kotlin.ValidBSTKt" />
         <item itemvalue="Kotlin.TestKt" />
+        <item itemvalue="Kotlin.LevelOrderTreeTraversalKt" />
       </list>
     </recent_temporary>
   </component>

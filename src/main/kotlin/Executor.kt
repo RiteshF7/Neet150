@@ -1,5 +1,8 @@
 package org.trex.kotlin
 
+import org.trex.kotlin.tree.TreeNode
+import org.trex.kotlin.tree.TreeUtils
+
 
 abstract class BaseExecutor<I, O>() {
     protected abstract val input: I
@@ -18,6 +21,7 @@ abstract class BaseExecutor<I, O>() {
             is CharArray -> println(output.joinToString(", "))
             is List<*> -> println(output.joinToString(", "))
             is Set<*> -> println(output.joinToString(", "))
+            is TreeNode -> (TreeUtils.printTree(output))
             is Map<*, *> -> println(output.entries.joinToString(", ") { "${it.key} -> ${it.value}" })
             else -> println("Unsupported type: Add type in print Output function!")
         }
