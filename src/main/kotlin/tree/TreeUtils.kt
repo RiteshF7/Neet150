@@ -45,4 +45,23 @@ object TreeUtils {
 
     }
 
+    fun createTree(): TreeNode {
+        val root = TreeNode(-15)
+        root.left = TreeNode(10)
+        root.right = TreeNode(20)
+        root.right?.left = TreeNode(15)
+        root.right?.right = TreeNode(5)
+        root.right?.left?.left = TreeNode(-5)
+        return root
+    }
+
+    fun createSimpleTree(): TreeNode {
+        val root = TreeNode(1)
+        root.left = TreeNode(2)
+        root.right = TreeNode(3)
+        root.right?.left = TreeNode(4)
+        root.right?.right = TreeNode(5)
+        return root
+    }
+
 }

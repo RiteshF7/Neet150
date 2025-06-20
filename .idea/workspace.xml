@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce313cea-582b-4f95-9cb0-e74ee23bad8e" name="Changes" comment="added KFreqElement &#10;count = 5">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayAndHashmap/SubSequenceOfArray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/BinaryTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/BinaryTreeImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/BuildTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/InvertBinaryTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/IsSameTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/IsSubTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/KthSmallestElement.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/LevelOrderTreeTraversal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/LowestCommonAncestor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/MaxDepthOfBinaryTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/RecursionExample.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/TreeNode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/TreeUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/ValidBST.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/MaxPathSum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/SerializeDeserializeBinaryTree.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Executor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Executor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/tree/TreeUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/tree/TreeUtils.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +98,7 @@
     "Kotlin.LongestRepeatingCharaterReplacementKt.executor": "Run",
     "Kotlin.LowestCommonAncestorKt.executor": "Run",
     "Kotlin.MaxDepthOfBinaryTreeKt.executor": "Debug",
+    "Kotlin.MaxPathSumKt.executor": "Debug",
     "Kotlin.MergeKSortedListsKt.executor": "Run",
     "Kotlin.MergeTwoSortedListKt.executor": "Run",
     "Kotlin.MinWindowSubStringKt.executor": "Run",
@@ -125,6 +112,7 @@
     "Kotlin.ReverseLinkedListKt.executor": "Run",
     "Kotlin.RotateArrayByKElementKt.executor": "Run",
     "Kotlin.SearchInRotatedSortedArrayKt.executor": "Run",
+    "Kotlin.SerializeDeserializeBinaryTreeKt.executor": "Run",
     "Kotlin.SubSequenceOfArrayKt.executor": "Run",
     "Kotlin.TestKt.executor": "Run",
     "Kotlin.ThreeSumKt.executor": "Run",
@@ -154,7 +142,7 @@
       <recent name="C:\Users\rites\IdeaProjects\Neet150\src\main\kotlin\arrayAndHashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BuildTreeKt">
+  <component name="RunManager" selected="Kotlin.SerializeDeserializeBinaryTreeKt">
     <configuration name="BuildTreeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.BuildTreeKt" />
       <module name="Neet150.main" />
@@ -169,15 +157,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LevelOrderTreeTraversalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.LevelOrderTreeTraversalKt" />
+    <configuration name="MaxPathSumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.MaxPathSumKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.TestKt" />
+    <configuration name="SerializeDeserializeBinaryTreeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.SerializeDeserializeBinaryTreeKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -193,17 +181,17 @@
     <list>
       <item itemvalue="Kotlin.BuildTreeKt" />
       <item itemvalue="Kotlin.KthSmallestElementKt" />
-      <item itemvalue="Kotlin.LevelOrderTreeTraversalKt" />
-      <item itemvalue="Kotlin.TestKt" />
+      <item itemvalue="Kotlin.MaxPathSumKt" />
+      <item itemvalue="Kotlin.SerializeDeserializeBinaryTreeKt" />
       <item itemvalue="Kotlin.ValidBSTKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SerializeDeserializeBinaryTreeKt" />
+        <item itemvalue="Kotlin.MaxPathSumKt" />
         <item itemvalue="Kotlin.BuildTreeKt" />
         <item itemvalue="Kotlin.KthSmallestElementKt" />
         <item itemvalue="Kotlin.ValidBSTKt" />
-        <item itemvalue="Kotlin.TestKt" />
-        <item itemvalue="Kotlin.LevelOrderTreeTraversalKt" />
       </list>
     </recent_temporary>
   </component>
