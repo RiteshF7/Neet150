@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce313cea-582b-4f95-9cb0-e74ee23bad8e" name="Changes" comment="added KFreqElement &#10;count = 5">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/MaxPathSum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/SerializeDeserializeBinaryTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/backtracking/FindingAllDistNum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/backtracking/Testing.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heapAndPriorityQueue/MinMaxHeap.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/tree/TreeUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/tree/TreeUtils.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,9 @@
     "Kotlin.EncodeDecodeStringKt.executor": "Run",
     "Kotlin.FindAnagramKt.executor": "Run",
     "Kotlin.FindDuplicateKt.executor": "Run",
+    "Kotlin.FindMedianKt.executor": "Run",
     "Kotlin.FindMinInRotatedArrayKt.executor": "Run",
+    "Kotlin.FindingAllDistNumKt.executor": "Run",
     "Kotlin.FindingCycleKt.executor": "Run",
     "Kotlin.GroupAnagramKt.executor": "Run",
     "Kotlin.InvertBinaryTreeKt.executor": "Debug",
@@ -101,6 +103,7 @@
     "Kotlin.MaxPathSumKt.executor": "Debug",
     "Kotlin.MergeKSortedListsKt.executor": "Run",
     "Kotlin.MergeTwoSortedListKt.executor": "Run",
+    "Kotlin.MinMaxHeapKt.executor": "Run",
     "Kotlin.MinWindowSubStringKt.executor": "Run",
     "Kotlin.MinimimWIndowSubStringKt.executor": "Run",
     "Kotlin.ProductExceptSelfKt.executor": "Run",
@@ -115,6 +118,7 @@
     "Kotlin.SerializeDeserializeBinaryTreeKt.executor": "Run",
     "Kotlin.SubSequenceOfArrayKt.executor": "Run",
     "Kotlin.TestKt.executor": "Run",
+    "Kotlin.TestingKt.executor": "Run",
     "Kotlin.ThreeSumKt.executor": "Run",
     "Kotlin.TwoSumKt.executor": "Run",
     "Kotlin.ValidBSTKt.executor": "Run",
@@ -142,23 +146,23 @@
       <recent name="C:\Users\rites\IdeaProjects\Neet150\src\main\kotlin\arrayAndHashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SerializeDeserializeBinaryTreeKt">
-    <configuration name="BuildTreeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.BuildTreeKt" />
+  <component name="RunManager" selected="Kotlin.TestingKt">
+    <configuration name="FindMedianKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.heapAndPriorityQueue.FindMedianKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthSmallestElementKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.KthSmallestElementKt" />
+    <configuration name="FindingAllDistNumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.backtracking.FindingAllDistNumKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxPathSumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.MaxPathSumKt" />
+    <configuration name="MinMaxHeapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.heapAndPriorityQueue.MinMaxHeapKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,27 +175,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidBSTKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.ValidBSTKt" />
+    <configuration name="TestingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.backtracking.TestingKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.BuildTreeKt" />
-      <item itemvalue="Kotlin.KthSmallestElementKt" />
-      <item itemvalue="Kotlin.MaxPathSumKt" />
+      <item itemvalue="Kotlin.FindMedianKt" />
+      <item itemvalue="Kotlin.FindingAllDistNumKt" />
+      <item itemvalue="Kotlin.MinMaxHeapKt" />
+      <item itemvalue="Kotlin.TestingKt" />
       <item itemvalue="Kotlin.SerializeDeserializeBinaryTreeKt" />
-      <item itemvalue="Kotlin.ValidBSTKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TestingKt" />
+        <item itemvalue="Kotlin.FindingAllDistNumKt" />
+        <item itemvalue="Kotlin.MinMaxHeapKt" />
+        <item itemvalue="Kotlin.FindMedianKt" />
         <item itemvalue="Kotlin.SerializeDeserializeBinaryTreeKt" />
-        <item itemvalue="Kotlin.MaxPathSumKt" />
-        <item itemvalue="Kotlin.BuildTreeKt" />
-        <item itemvalue="Kotlin.KthSmallestElementKt" />
-        <item itemvalue="Kotlin.ValidBSTKt" />
       </list>
     </recent_temporary>
   </component>
