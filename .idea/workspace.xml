@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce313cea-582b-4f95-9cb0-e74ee23bad8e" name="Changes" comment="added KFreqElement &#10;count = 5">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/backtracking/FindingAllDistNum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/backtracking/Testing.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heapAndPriorityQueue/MinMaxHeap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/backtracking/WordCombination.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +122,7 @@
     "Kotlin.ValidBSTKt.executor": "Run",
     "Kotlin.ValidPalindromeKt.executor": "Debug",
     "Kotlin.ValidParenthesisKt.executor": "Run",
+    "Kotlin.WordCombinationKt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -146,7 +145,7 @@
       <recent name="C:\Users\rites\IdeaProjects\Neet150\src\main\kotlin\arrayAndHashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TestingKt">
+  <component name="RunManager" selected="Kotlin.WordCombinationKt">
     <configuration name="FindMedianKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.heapAndPriorityQueue.FindMedianKt" />
       <module name="Neet150.main" />
@@ -168,15 +167,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializeDeserializeBinaryTreeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.tree.SerializeDeserializeBinaryTreeKt" />
+    <configuration name="TestingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.backtracking.TestingKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.backtracking.TestingKt" />
+    <configuration name="WordCombinationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.trex.kotlin.backtracking.WordCombinationKt" />
       <module name="Neet150.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,15 +186,15 @@
       <item itemvalue="Kotlin.FindingAllDistNumKt" />
       <item itemvalue="Kotlin.MinMaxHeapKt" />
       <item itemvalue="Kotlin.TestingKt" />
-      <item itemvalue="Kotlin.SerializeDeserializeBinaryTreeKt" />
+      <item itemvalue="Kotlin.WordCombinationKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.TestingKt" />
+        <item itemvalue="Kotlin.WordCombinationKt" />
         <item itemvalue="Kotlin.FindingAllDistNumKt" />
+        <item itemvalue="Kotlin.TestingKt" />
         <item itemvalue="Kotlin.MinMaxHeapKt" />
         <item itemvalue="Kotlin.FindMedianKt" />
-        <item itemvalue="Kotlin.SerializeDeserializeBinaryTreeKt" />
       </list>
     </recent_temporary>
   </component>
